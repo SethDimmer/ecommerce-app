@@ -12,7 +12,7 @@ library.add(faBars, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt, 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+   </React.StrictMode>,
   document.getElementById('root')
 );
 

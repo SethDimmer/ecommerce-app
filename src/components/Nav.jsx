@@ -33,9 +33,9 @@ const Nav = ({ numberOfItems }) => {
             <FontAwesomeIcon icon="bars" />
           </button>
           <li className="nav__icon">
-            <Link to="/cart" className="nav__link">
+            <a href="/" className="nav__link">
               <FontAwesomeIcon icon="shopping-cart" />
-            </Link>
+            </a>
             {numberOfItems > 0 && (
               <span className="cart__length">{numberOfItems}</span>
             )}
@@ -48,19 +48,19 @@ const Nav = ({ numberOfItems }) => {
           </button>
           <ul className="menu__links">
             <li className="menu__list">
-              <Link to="/" className="menu__link" onClick={closeMenu}>
+              <a to="" className="menu__link" onClick={closeMenu}>
                 Home
-              </Link>
+              </a>
             </li>
             <li className="menu__list">
-              <Link to="/books" className="menu__link" onClick={closeMenu}>
+              <a href="/books" className="menu__link" onClick={closeMenu}>
                 Books
-              </Link>
+              </a>
             </li>
             <li className="menu__list">
-              <Link to="/cart" className="menu__link" onClick={closeMenu}>
+              <a href="/cart" className="menu__link" onClick={closeMenu}>
                 Cart
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
