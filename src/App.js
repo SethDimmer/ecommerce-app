@@ -35,7 +35,7 @@ function removeItem(item) {
 }
 
 useEffect(() => {
-  console.log(cart)
+  // console.log(cart)
 },[cart])
 
 
