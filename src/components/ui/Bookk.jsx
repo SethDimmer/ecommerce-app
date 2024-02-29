@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Rating from "./Rating";
 import Price from "./Price";
@@ -26,13 +26,4 @@ const Bookk = ({ book }) => {
 
 export default Bookk;
 
-{/* <div className="book__ratings">
-        
-{
-new Array(Math.floor(book.rating)).fill(0).map((_, index) => <FontAwesomeIcon icon="star" key={index} />)
-}
-{
-  !Number.isInteger(book.rating) && <FontAwesomeIcon icon="star-half-alt" />
-  // if it not an integer print the half star
-}
-</div> */}
+
